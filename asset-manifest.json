@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/autotest-homeworks/static/css/main.b6754b6c.css",
-    "main.js": "/autotest-homeworks/static/js/main.dd3da4f2.js",
+    "main.js": "/autotest-homeworks/static/js/main.c17583e9.js",
     "static/js/787.66cb4309.chunk.js": "/autotest-homeworks/static/js/787.66cb4309.chunk.js",
     "index.html": "/autotest-homeworks/index.html",
     "main.b6754b6c.css.map": "/autotest-homeworks/static/css/main.b6754b6c.css.map",
-    "main.dd3da4f2.js.map": "/autotest-homeworks/static/js/main.dd3da4f2.js.map",
+    "main.c17583e9.js.map": "/autotest-homeworks/static/js/main.c17583e9.js.map",
     "787.66cb4309.chunk.js.map": "/autotest-homeworks/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6754b6c.css",
-    "static/js/main.dd3da4f2.js"
+    "static/js/main.c17583e9.js"
   ]
 }
