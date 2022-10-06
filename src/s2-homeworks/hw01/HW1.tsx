@@ -33,23 +33,23 @@ type messageType = {
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: './avatar.png', // можно менять
-        name: 'Some Name',  // можно менять
+        avatar: 'https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_5-512.png', // можно менять
+        name: 'Jeremy Robbins',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
+        text: 'Hi there, bro! blablabla', // можно менять
         time: '22:00', // можно менять
     },
 }
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
-        avatar: 'https://cdn1.vectorstock.com/i/1000x1000/23/70/man-avatar-icon-flat-vector-19152370.jpg', // можно менять
-        name: 'Friend Name', // можно менять
+        avatar: 'https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_1-512.png', // можно менять
+        name: 'William Scott', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        text: "Yo! What's up? blablabla", // можно менять
+        time: '10:00', // можно менять
     },
 }
 
