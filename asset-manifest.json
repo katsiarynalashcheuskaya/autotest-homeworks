@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/autotest-homeworks/static/css/main.4cac9cc6.css",
+    "main.js": "/autotest-homeworks/static/js/main.f57b9f19.js",
+    "static/js/787.66cb4309.chunk.js": "/autotest-homeworks/static/js/787.66cb4309.chunk.js",
+    "index.html": "/autotest-homeworks/index.html",
+    "main.4cac9cc6.css.map": "/autotest-homeworks/static/css/main.4cac9cc6.css.map",
+    "main.f57b9f19.js.map": "/autotest-homeworks/static/js/main.f57b9f19.js.map",
+    "787.66cb4309.chunk.js.map": "/autotest-homeworks/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cac9cc6.css",
+    "static/js/main.f57b9f19.js"
+  ]
+}
