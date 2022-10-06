@@ -48,14 +48,14 @@ function Affairs(props: AffairsPropsType) {
                 </button>
                 <button
                     id={'hw2-button-middle'}
-                    onClick={() => setHigh("middle")}
+                    onClick={() => setMiddle("middle")}
                     className={cnMiddle}
                 >
                     Middle
                 </button>
                 <button
                     id={'hw2-button-low'}
-                    onClick={() => setHigh("low")}
+                    onClick={() => setLow("low")}
                     className={cnLow}
                 >
                     Low
