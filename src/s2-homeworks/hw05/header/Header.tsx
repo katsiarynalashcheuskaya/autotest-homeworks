@@ -22,7 +22,6 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                     ? 'Junior Plus'
                     : 'Error'
     return (
-        <>
             <div id={'hw5-header'} className={s.header}>
                 <img
                     src={burgerIcon}
@@ -33,6 +32,5 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                 />
                 <h1>{pageName}</h1>
             </div>
-        </>
     )
 }

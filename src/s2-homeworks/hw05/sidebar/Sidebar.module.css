@@ -40,10 +40,9 @@
 .nav a:hover {
    color: #58ACFF;
     text-decoration: none;
-
 }
 
-.nav a:active {
+.nav a .active {
     text-decoration-line: underline;
     color: #0059B2;
 }

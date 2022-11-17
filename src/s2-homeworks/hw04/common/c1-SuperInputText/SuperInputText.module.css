@@ -18,6 +18,8 @@
 .errorInput {
     border: 1px solid #CC1439;
     position: relative;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .errorInput:focus {
@@ -25,8 +27,9 @@
 }
 
 .error {
-   color: #CC1439;
+    color: #CC1439;
     position: absolute;
     margin-left: 10px;
+
 
 }
