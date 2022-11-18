@@ -18,7 +18,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
             {open && <div className={s.background} onClick={handleClose}/>}
 
             {open && <aside className={sidebarClass}>
-                 <button className={s.close} onClick={handleClose}>
+                <button className={s.close} onClick={handleClose}>
                     <img
                         src={closeIcon}
                         alt="close sidebar"
@@ -40,10 +40,11 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         to={PATH.JUNIOR}
                         onClick={handleClose}
                         className={({isActive})=>isActive ? s.active : ''}
-                        /*end*/
+                        end
                     >
                         Junior
                     </NavLink>
+
                     <NavLink
                         id={'hw5-junior-plus-link'}
                         to={PATH.JUNIOR_PLUS}
