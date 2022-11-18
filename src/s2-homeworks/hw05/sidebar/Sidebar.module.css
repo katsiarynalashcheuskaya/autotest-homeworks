@@ -1,9 +1,9 @@
 .sidebar {
-    position: absolute;
-    z-index: 100;
+display:none
 }
 
 .sidebar.open {
+    display: block;
     position: absolute;
     z-index: 100;
     width: 317px;
@@ -45,7 +45,7 @@
     text-decoration: none;
 }
 
-.nav a:active {
+.nav a.active {
     text-decoration-line: underline;
     color: #0059B2;
 }
