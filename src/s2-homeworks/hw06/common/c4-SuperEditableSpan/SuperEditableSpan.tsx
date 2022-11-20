@@ -67,13 +67,15 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     return (
         <>
             {editMode ? (
+                <div className={s.inputClass}>
                 <SuperInputText
                     autoFocus={autoFocus || true}
                     onBlur={onBlurCallback}
                     onEnter={onEnterCallback}
-                    className={s.input}
+                    className={s.inputClass}
                     {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
                 />
+                </div>
             ) : (
                 <div className={s.spanBlock}>
                     <img

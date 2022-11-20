@@ -1,37 +1,33 @@
+* {box-sizing: border-box;}
 .header {
-    position: relative;
     width: 100%;
-    min-width: 1280px;
     height: 60px;
-    left: 0px;
-    top: 0px;
+    top: 0;
     background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(29, 33, 38, 0.13), 0px 0px 2px rgba(29, 33, 38, 0.1);
+    box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);
     display: flex;
-   /* flex-direction: row-reverse;*/
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 13px 30px;
+    position:fixed;
+    z-index: 999;
+
 }
 
 .burgerMenuIcon {
-    position: absolute;
-    left: 12.5%;
-    right: 12.5%;
-    top: 25%;
-    bottom: 66.67%;
+
 }
 
 .header h1 {
-    position: absolute;
     width: 184px;
     height: 29px;
-    left: 1026px;
-    top: 17px;
+
     font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-
-
 
 }

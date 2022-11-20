@@ -1,5 +1,21 @@
 .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin-top: 24px;
+    margin-left: 35px;
+
+}
+
+.buttonsContainer button{
+    width: 116px;
+}
+.buttonsContainer button:hover {
+    width: 116px;
 }
 
 .editableSpanContainer {
+    width: 200px;
+    margin-left: 35px;
+
 }

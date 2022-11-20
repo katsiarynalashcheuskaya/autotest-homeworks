@@ -9,6 +9,14 @@
 
 .error {
     color: red;
+    margin-top: 5px;
+}
+
+.errorInput {
+    border: 1px solid red;
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
 }
 
 .input {
@@ -19,14 +27,6 @@
 }
 
 .input:focus {
-}
-
-.errorInput {
-    border: 1px solid #D1D1D1;
-    border-radius: 5px;
-    width: 372px;
-    height: 36px;
-    color: red;
 }
 
 .button {

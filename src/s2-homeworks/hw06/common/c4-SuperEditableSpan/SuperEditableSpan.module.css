@@ -1,11 +1,30 @@
 .spanBlock {
+    display: inline-block;
+    height: 31px;
 }
 
 .span {
+    color: #0080FF;
+    font-family: "Arial", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
 }
 
-.input {
+.inputClass input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 24px;
+}
+
+.inputClass {
+    width: 270px;
+    height: 36px;
 }
 
 .pen {
+    margin-right: 10px;
 }

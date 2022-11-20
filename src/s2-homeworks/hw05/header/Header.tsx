@@ -17,12 +17,13 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
         currentPath === PATH.PRE_JUNIOR
             ? 'Homework №5'
             : currentPath === PATH.JUNIOR
-                ? 'Junior'
+                ? 'Homework №10'
                 : currentPath === PATH.JUNIOR_PLUS
                     ? 'Junior Plus'
                     : 'Error'
     return (
             <div id={'hw5-header'} className={s.header}>
+
                 <img
                     src={burgerIcon}
                     id={'hw5-burger-menu'}
@@ -32,5 +33,6 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                 />
                 <h1>{pageName}</h1>
             </div>
+
     )
 }
