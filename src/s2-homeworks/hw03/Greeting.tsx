@@ -1,6 +1,5 @@
 import React, {ChangeEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
-import {UserType} from "./HW3";
 
 type GreetingPropsType = {
     name: string // need to fix any

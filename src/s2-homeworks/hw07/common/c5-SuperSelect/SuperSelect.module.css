@@ -1,9 +1,15 @@
 .select {
+    width: 100px;
+    padding: 5px;
+    appearance: none;
 }
 
 .select:focus {
+    outline: none;
+    border: #0059b3 solid 2px;
 }
 
 
 .option:hover {
+    box-shadow: 0 0 10px 100px slategrey inset;
 }
