@@ -20,7 +20,7 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                 ? 'Homework №10'
                 : currentPath === PATH.JUNIOR_PLUS
                     ? 'Junior Plus'
-                    : 'Error'
+                    : 'error'
     return (
             <div id={'hw5-header'} className={s.header}>
 
