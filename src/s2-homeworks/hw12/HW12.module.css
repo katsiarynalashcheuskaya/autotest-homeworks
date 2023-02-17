@@ -19,5 +19,18 @@ html {
 }
 
 .select {
+    width: 171px;
+    height: 36px;
+    border-radius: 2px;
 
+}
+
+.text {
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+}
+
+.homeworkBlock {
+    display: flex;
+    flex-direction: column;
 }
